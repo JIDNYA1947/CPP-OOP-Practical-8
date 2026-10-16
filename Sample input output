@@ -1,4 +1,8 @@
-**Test Case 1**
+'''' Test Cases and Output**
+
+**Program 1: Exception Handling (Bank Withdrawal System)**
+
+**Test Case 1: Valid Withdrawal**
 
 **Input:**
 ```text
@@ -15,7 +19,9 @@ Remaining Balance: Rs. 7000
 Thank you for banking with us.
 ```
 
-**Test Case 2**
+**Status:** Pass
+
+**Test Case 2: Insufficient Balance**
 
 **Input:**
 ```text
@@ -30,3 +36,41 @@ Enter withdrawal amount: 12000
 Insufficient balance!
 Thank you for banking with us.
 ```
+
+**Status:** Pass
+
+**Test Case 3: Invalid Withdrawal Amount**
+
+**Input:**
+```text
+-500
+```
+
+**Output:**
+```text
+Welcome to Bank
+Account Balance: Rs. 10000
+Enter withdrawal amount: -500
+Invalid withdrawal amount.
+Thank you for banking with us.
+```
+
+**Status:** Pass
+
+**Test Case 4: Zero Withdrawal Amount**
+
+**Input:**
+```text
+0
+```
+
+**Output:**
+```text
+Welcome to Bank
+Account Balance: Rs. 10000
+Enter withdrawal amount: 0
+Invalid withdrawal amount.
+Thank you for banking with us.
+```
+
+**Status:** Pass
